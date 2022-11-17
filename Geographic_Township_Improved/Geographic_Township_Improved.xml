@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>a159cf53aefb46ac806cda5c5f79792c</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>Jennifer McMurray</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>Office of the Surveyor General, Ontario Ministry of Natural Resources and Forestry</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Coordinator, Parcel Mapping and Georeferencing</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>1 (705) 7616859</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <electronicMailAddress>
+                                <gco:CharacterString>jennifer.mcmurray@ontario.ca</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2022-02-09</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>NAP - Metadata</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>1.2</gco:CharacterString>
+    </metadataStandardVersion>
+    <locale>
+        <PT_Locale>
+            <languageCode>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="fre" codeSpace="ISO639-2">fre</LanguageCode>
+            </languageCode>
+            <country>
+                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="CA" codeSpace="ISO3166-1">CA</Country>
+            </country>
+            <characterEncoding>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterEncoding>
+        </PT_Locale>
+    </locale>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>Grid CS = Geographic (Lat, Long); Map Proj = Not Applicable; Horiz. Datum = NAD83; Vert. Datum = CGD28 - CDN</gco:CharacterString>
+                    </code>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Geographic Township Improved</gco:CharacterString>
+                    </title>
+                    <alternateTitle>
+                        <gco:CharacterString>GEOTWPIM</gco:CharacterString>
+                    </alternateTitle>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>1977-01-01</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115">creation</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:DateTime>2022-07-22T09:40:46</gco:DateTime>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <identifier>
+                        <MD_Identifier>
+                            <authority>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>LIO Metadata Management Tool UUID</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:DateTime>2019-04-11T14:51:49.290108</gco:DateTime>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </authority>
+                            <code>
+                                <gco:CharacterString>f65fad7c-914b-4759-a215-1c18837ac171</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </identifier>
+                    <identifier>
+                        <MD_Identifier>
+                            <authority>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>LIO Concrete Class Short Name</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:DateTime>2019-04-11T14:51:49.300122</gco:DateTime>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </authority>
+                            <code>
+                                <gco:CharacterString>GEOTWPIM</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </identifier>
+                    <identifier>
+                        <MD_Identifier>
+                            <authority>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Ontario GeoHub French Record ID</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:DateTime>2020-01-02T16:10:26.344153</gco:DateTime>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </authority>
+                            <code>
+                                <gco:CharacterString>5dc6c60616054b4d96fa66f17281725b_1</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </identifier>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Ontario Ministry of Natural Resources and Forestry</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo gco:nilReason="missing"/>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>A Township is a land subdivision in Ontario.
+ 
+This information was captured through the Ontario Base Mapping Program, is maintained by the Ministry of Natural Resources and distributed through Land Information Ontario (LIO) Warehouse.
+ 
+The spatial accuracy for some of the townships was improved through the Ontario Parcel, Township Realignment and Township Improvement projects.
+ 
+Improvements may include:
+
+road allowance widths
+spatial changes to better represent where the township boundaries are located
+more consistent concession names
+
+Materials used to improve the location of township lines may include:
+
+township Improvement plots
+survey information i.e. retracements
+original township plans
+surveys notes
+the physical features e.g. fence lines in the corporate editing environment
+water bodies
+GPS Ontario Road Network geometry
+
+Please see the full metadata record for more information.
+ 
+Additional Documentation  
+
+Geographic Township, Improved - Data Description (PDF)
+
+Geographic Township, Improved - Documentation (Word)
+
+
+Geographic Township, Improved - FAQ (PDF)
+
+  
+
+ Status On going: Data is continually being updated     Maintenance and Update Frequency  Annually: Data is updated every year 
+
+     Contact  
+Jennifer McMurray, Office of the Surveyor General, jennifer.mcmurray@ontario.ca</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>A guide to the fundamental land subdivision of the Province. The geographic township fabric is shown as it was originally surveyed, unless it has been annulled upon the instruction of the Surveyor General.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Open Government Licence – Ontario</gco:CharacterString>
+            </credit>
+            <status gco:nilReason="missing"/>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Jennifer McMurray</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>Office of the Surveyor General, Ontario Ministry of Natural Resources and Forestry</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Coordinator, Parcel Mapping and Georeferencing</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>1 (705) 7616859</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>jennifer.mcmurray@ontario.ca</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="ISOTC211/19115">custodian</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>OBM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIP FABRIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND MANAGEMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DTDB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>PLANNING/DEVELOPMENT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ADMINISTRATION</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DIGITAL TOPOGRAPHIC DATA BASE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>BASE MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>MUNICIPAL PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>ONTARIO BASIC MAPPING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LAND USE PLANNING</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>TOWNSHIPS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>LANDS</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>external</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                            <citedResponsibleParty gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Open Government Licence – Ontario</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>&lt;a href="https://www.ontario.ca/page/open-government-licence-ontario"&gt;Open Government Licence – Ontario&lt;/a&gt;</gco:CharacterString>
+                    </useLimitation>
+                    <otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </accessConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Other Constraints</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>planningCadastre</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-95.1569900512695</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-74.3079833984375</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>41.6722984313965</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>56.8501167297363</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat gco:nilReason="missing"/>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://www.gisapplication.lrc.gov.on.ca/fmedatadownload/Packages/fgdb/GEOTWPIM.zip</URL>
+                            </linkage>
+                            <protocol gco:nilReason="missing"/>
+                            <name>
+                                <gco:CharacterString>Complete File Geodatabase</gco:CharacterString>
+                            </name>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://www.gisapplication.lrc.gov.on.ca/fmedatadownload/Packages/GEOTWPIM.zip</URL>
+                            </linkage>
+                            <protocol gco:nilReason="missing"/>
+                            <name>
+                                <gco:CharacterString>Complete Shapefile</gco:CharacterString>
+                            </name>
+                        </CI_OnlineResource>
+                    </onLine>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://www.sdc.gov.on.ca/sites/MNRF-PublicDocs/EN/CMID/lio-open-qlr-eng/geographic-township-improved.qlr</URL>
+                            </linkage>
+                            <protocol gco:nilReason="missing"/>
+                            <name>
+                                <gco:CharacterString>QGIS Layer Definition File (.qlr)</gco:CharacterString>
+                            </name>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope gco:nilReason="missing"/>
+            <report>
+                <DQ_RelativeInternalPositionalAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>Horizontal: Unknown; Vertical: Not Applicable</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_RelativeInternalPositionalAccuracy>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>NRVIS Township Fabric - As part of the Ontario Parcel build contract, existing NRVIS geographic township fabric was confirmed (to MNR materials) prior to its use in the Ontario Parcel build. Should the build Contractor determine that the position of MNR's NRVIS geographic township fabric was unacceptable, the Contractor was to improve the geographic township fabric based on the materials provided by MNR. If the contractor did not have any better information that would improve the township fabric, then they were instructed to leave the fabric as it already exists in NRVIS.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Ontario Parcel Build /NRVIS Lot</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>The objective of the Township Fabric Improvement project was to obtain as much survey information on certain subdivided townships from the best possible source in order to enhance the spatial representation of the fabric in a digital database. Through the acquisition of Ontario Land Surveyors' records and opinions, GIO obtained survey information that may better indicate where some lot and township corners should be positioned. Township Improvement includes materials and survey information provided by local surveyors. This information was incorporated into the Ontario Parcel build. Please note: Not all townships were improved, depending upon available survey information and whether there was interest from the surveyor to do the work. The improved fabric from both the Township Improvement/Ontario Parcel projects will be inserted into a new township fabric data model that will reside in both NRVIS and the LIO warehouse. Data collected from 01/01/2000 to 30/06/2005</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Township Improvement Materials</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                    <source>
+                        <LI_Source>
+                            <description>
+                                <gco:CharacterString>Township Realignment Project - For 230 townships in southern Ontario where Teranet's POLARIS and BIM mapping exist, the NRVIS township fabric was realigned with the fabric and parcels from POLARIS and BIM mapping. The POLARIS and BIM parcel fabric data was used to build the NRVIS fabric, because it is deemed to be more accurate than the present NRVIS township fabric.</gco:CharacterString>
+                            </description>
+                            <sourceCitation>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>Township Realignment - Basic Index Mapping (BIM) and Province of Ontario Registration and Information System (POLARIS)</gco:CharacterString>
+                                    </title>
+                                    <date gco:nilReason="missing"/>
+                                    <citedResponsibleParty gco:nilReason="missing"/>
+                                </CI_Citation>
+                            </sourceCitation>
+                        </LI_Source>
+                    </source>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+</MD_Metadata>
