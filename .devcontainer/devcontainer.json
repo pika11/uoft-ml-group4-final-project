@@ -1,24 +1,17 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/anaconda
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "Anaconda (Python 3)",
-	"build": { 
-		"context": "..",
-		"dockerfile": "Dockerfile"
-	},
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3.11"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers/features/nvidia-cuda:1": { 
-		      "installCudnn": true
-		}
-	}
+	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
