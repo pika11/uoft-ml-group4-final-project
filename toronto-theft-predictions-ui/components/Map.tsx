@@ -13,7 +13,7 @@ const GoogleMapsComponent = ({ setCoordinates }) => {
     // Create the script tag for the Google Maps API
     const script = document.createElement("script");
     script.src =
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyB24aphQczKB091dWFRnUtX7NON1a0cpsg&libraries=places";
+      "https://maps.googleapis.com/maps/api/js?key=&libraries=places";
     script.defer = true;
     script.async = true;
     script.id = "google-map-script";
