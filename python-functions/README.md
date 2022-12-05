@@ -9,3 +9,9 @@ gcloud functions deploy predictions \
  --trigger-http \
  --memory=1024
 ```
+
+## For testing
+
+```
+functions-framework --target predictions --debug
+```

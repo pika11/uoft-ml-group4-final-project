@@ -8,7 +8,7 @@ from fastai.learner import load_learner
 
 
 @functions_framework.http
-def predictions(self):
+def predictionsv1(request):
     # Get today's date in the format the model expects
     today = datetime.today().strftime('%Y-%m-%d')
 
@@ -36,4 +36,16 @@ def predictions(self):
     # Drop all columns except the predictions
     df = df[['thefts']]
 
-    return json.dumps(df.to_dict()).encode('utf-8')
+    headers = {}
+
+    # Set CORS headers for the main request
+    headers['Access-Control-Allow-Origin'] = '*'
+
+    # Set cache to 2 hours
+    headers['Cache-Control'] = 'public, max-age=7200'
+
+    # Set response header to JSON
+    headers['Content-Type'] = 'application/json'
+
+    # Send the headers in the response
+    return (json.dumps(df.to_dict(orient='records')), 200, headers)
