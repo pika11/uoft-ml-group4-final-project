@@ -28,7 +28,7 @@ async function scrapeWebsite(lat, lng) {
   let browser;
   if (isProduction) {
     browser = await puppeteer.connect({
-      browserWSEndpoint: "wss://chrome.browserless.io?token=",
+      browserWSEndpoint: "wss://chrome.browserless.io?",
     });
   } else {
     browser = await puppeteer.launch();
